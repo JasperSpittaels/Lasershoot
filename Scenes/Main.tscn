@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://bx1ink7qio1rd"]
+
+[ext_resource type="Script" uid="uid://d4l8oc4x5sec1" path="res://Scripts/ARCamera.gd" id="1_r150o"]
+[ext_resource type="Script" uid="uid://b2ddixjbwxcxm" path="res://Scenes/ShootButton.gd" id="2_idj7w"]
+[ext_resource type="Script" uid="uid://d3705aiq7ybhl" path="res://Scripts/Weapon.gd" id="2_kln2b"]
+
+[node name="Main" type="Node3D" unique_id=915741831]
+script = ExtResource("1_r150o")
+
+[node name="XROrigin3D" type="XROrigin3D" parent="." unique_id=723786956]
+
+[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D" unique_id=1962170846]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=808030917]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=418245575]
+
+[node name="Weapon" type="Node3D" parent="." unique_id=1045896186]
+script = ExtResource("2_kln2b")
+
+[node name="Players" type="Node3D" parent="." unique_id=80942560]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2080292197]
+follow_viewport_enabled = true
+
+[node name="Button" type="Button" parent="CanvasLayer" unique_id=1090558402 node_paths=PackedStringArray("weapon")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 75
+text = "SCHIET"
+script = ExtResource("2_idj7w")
+weapon = NodePath("../../Weapon")
+
+[connection signal="pressed" from="CanvasLayer/Button" to="CanvasLayer/Button" method="_on_pressed"]

@@ -1,0 +1,14 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1781616836
+icon.svg::CompressedTexture2D::6860773840843530713::1781616836::1781616852::1::::<><><>0<>0<>c7e5174443cea71d95faaeb9e033107c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+openxr_action_map.tres::OpenXRActionMap::8533063443273242609::1781617396::0::1::::<><><>0<>0<><>::
+::res://Scenes/::1781617004
+Main.tscn::PackedScene::4054947435641776541::1781618142::0::1::::<><><>0<>0<><>::uid://d4l8oc4x5sec1::::res://Scripts/ARCamera.gd<>uid://b2ddixjbwxcxm::::res://Scenes/ShootButton.gd
+Marker.tscn::PackedScene::3572515776676642381::1781617794::0::1::::<><><>0<>0<><>::uid://by7ogi07c60bb::::res://Scripts/Marker.gd
+ShootButton.gd::GDScript::4287910254527728282::1781618142::0::1::::<>Button<><>0<>0<><>::
+::res://Scripts/::1781616948
+ARCamera.gd::GDScript::9219475484684707070::1781617794::0::1::::<>Node3D<><>0<>0<><>::
+Marker.gd::GDScript::4137874232062716127::1781617794::0::1::::<>Area3D<><>0<>0<><>::
+Network.gd::GDScript::2461633173298136716::1781617794::0::1::::<>Node<><>0<>0<><>::
+Player.gd::GDScript::3561228941712053869::1781617796::0::1::::<>Node3D<><>0<>0<><>::
+Weapon.gd::GDScript::9192181272839540797::1781617796::0::1::::<>Node3D<><>0<>0<><>::

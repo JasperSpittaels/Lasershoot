@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bq5s2vx4heg3n"]
+
+[ext_resource type="Script" uid="uid://by7ogi07c60bb" path="res://Scripts/Marker.gd" id="1_q7bji"]
+
+[node name="Area3D" type="Area3D" unique_id=1747366358]
+script = ExtResource("1_q7bji")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1323006297]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1391634332]

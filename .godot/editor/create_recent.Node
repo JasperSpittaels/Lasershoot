@@ -1,0 +1,13 @@
+Node3D
+Button
+CanvasLayer
+MeshInstance3D
+CollisionShape3D
+Area3D
+DirectionalLight3D
+WorldEnvironment
+XRCamera3D
+XROrigin3D
+XRController3D
+CharacterBody3D
+Camera3D
